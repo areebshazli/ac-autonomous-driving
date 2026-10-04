@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Project generated/machine specific, it was tested on my PC, and it is not portable between setups
+steer_curve.json
+bev_calibration.json
+*.mp4
+*.avi
+
+# Model weights (large; plus very heavy on the PC; https://github.com/onnx/onnx)
+*.onnx
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

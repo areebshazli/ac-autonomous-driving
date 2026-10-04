@@ -1,0 +1,15 @@
+# Perception that is used in this project is DirectML, NOT CUDA: runs on AMD/Intel/NVIDIA GPUs alike, no PyTorch/CUDA toolkit needed.
+# Do not also install plain `onnxruntime` or `onnxruntime-gpu` because they conflict with the DirectML build.
+onnxruntime-directml>=1.17
+dxcam>=0.0.5
+opencv-python>=4.8
+numpy>=1.24
+
+# Control / input
+vgamepad>=0.0.8          # requires the ViGEmBus driver (see README setup)
+pywin32>=306              # Windows shared-memory telemetry (ctypes/mmap)
+
+# For Testing (no game/GPU required)
+# tests/sim_test.py only needs opencv-python and numpy, already listed above. You may test on any system without a dedicated GPU.
+# You might also need AC content manager to assign other variables like controller input, other physics/assist options according to what you desire. I did notice one thing, for me
+#AC was only picking up the virtual controller input at a single time, and was not recognising my actual physical controller. So I could only control CM CSP settings with mouse and keyboard.
