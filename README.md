@@ -6,7 +6,7 @@ a planner (IDM + pure pursuit + lane-change state machine), and output to the ga
 virtual Xbox controller. Validated offline against an automated 34-check regression suite before
 every change was tested in-sim.
 
-![demo](media/AC_perception.gif)
+![BEV Overlay with HUD](media/AC_perception.gif)
 
 ## What it does
 
@@ -23,7 +23,7 @@ every change was tested in-sim.
 - **Control**: outputs to Assetto Corsa through a virtual Xbox 360 controller (vgamepad/ViGEmBus),
   with a measured, calibrated steering-response curve and a dead-man's-switch watchdog.
 
-![demo](media/main-working_ac_perception.png)
+![Main Overview](media/main-working_ac_perception.png)
 
 
 ## Key engineering decisions
