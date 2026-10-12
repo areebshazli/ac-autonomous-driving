@@ -8,6 +8,7 @@ every change was tested in-sim.
 
 ![BEV Overlay with HUD](media/AC_perception.gif)
 
+**Watch The Full Demonstration on Youtube by clicking on the image below or use the following link!: (https://youtu.be/vTybwQg10Qs)**
 [![Watch the full demo on YouTube](https://img.youtube.com/vi/vTybwQg10Qs/maxresdefault.jpg)](https://youtu.be/vTybwQg10Qs)
 
 ## What it does
